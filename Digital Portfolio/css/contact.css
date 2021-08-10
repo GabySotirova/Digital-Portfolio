@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	src:url(../fonts/Orator%20Bold.ttf);
+	font-family:text;
+}
+
+#parent {
+	display: flex;
+	height:675px;	
+}
+
+#ps-header {left:2.47%;top:4.326%;}
+
+#ps-header h1{color:#e61c3f;font-size:23px;letter-spacing:4px;text-transform:uppercase;font-family:text;}
+
+#ps-header h1{padding:0 0 20px 6px;}
+
+#ps-header h1{padding-top:24px}
+
+#one {
+	width: 50%;
+	background-color:#F2ECEB;
+		
+}
+
+#two {
+	width: 50%;
+	flex:1;	
+	background-color:rgb(191, 171, 170);
+}
+
+#wrapper {line-height: 60px;position:absolute;
+    top: 50%; left: 25%;
+    transform: translate(-50%,-50%);
+}
+
+#success_message{ display: none;}
+
